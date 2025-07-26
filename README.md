@@ -58,6 +58,20 @@ PRIVATE_KEY_1=0xyour_private_key_here_1
 PRIVATE_KEY_2=0xyour_private_key_here_2
 PRIVATE_KEY_3=0xyour_private_key_here_3
 ```
+
+## Create and Configure the twitter.txt File
+Create a file named twitter.txt in the project's root directory.
+Add username twitter to the twitter.txt file, you can add as many keys as you need.
+Do not include the @ symbol. The bot adds it automatically.
+Blank lines will be ignored.
+Example twitter.txt content:
+```bash
+VitalikButerin
+elonmusk
+DappLabs
+YourFavoriteUser
+```
+
 Security Note: Never share your .env file or commit it to a public repository.
 
 ## Usage
