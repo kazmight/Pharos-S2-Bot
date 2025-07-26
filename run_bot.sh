@@ -1,8 +1,6 @@
 #!/bin/bash
 
-
 cd /workspace/Pharos-S2-Bot
-
 
 if [ ! -d "node_modules" ]; then
   echo "Direktori node_modules tidak ditemukan. Melakukan npm install..."
