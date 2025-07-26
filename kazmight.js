@@ -68,7 +68,6 @@ const logger = {
     console.log(`                    Script Author By : Kazmight                   `);
     console.log(`For Future New Script or Update Join Telegram Channel : Dasar Pemulung`);
     console.log(`--------------------------------------------------------------------${colors.reset}`);
-    console.log();
   }
 };
 
