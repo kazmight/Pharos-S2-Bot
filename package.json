@@ -1,26 +1,19 @@
 {
-  "name": "pharos-s2-bot",
+  "name": "pharos-season2-automation-bot",
   "version": "1.0.0",
-  "description": "Automated bot for interacting with the PharosV2 testnet, including swapping, liquidity provision, and NFT minting on AquaFlux.",
+  "description": "An automation script for interacting with multiple protocols on the Pharos testnet.",
   "main": "kazmight.js",
   "scripts": {
     "start": "node kazmight.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "pharos",
-    "blockchain",
-    "ethers",
-    "crypto",
-    "bot",
-    "automation",
-    "aquaflux"
-  ],
-  "author": "kazmight",
+  "author": "Kazmight",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
+    "axios-cookiejar-support": "^5.0.2",
     "dotenv": "^16.4.5",
-    "ethers": "^6.13.1"
+    "ethers": "^6.13.0",
+    "tough-cookie": "^4.1.4"
   }
 }
