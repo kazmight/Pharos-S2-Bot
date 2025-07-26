@@ -1,17 +1,21 @@
 #!/bin/bash
 
-if [ ! -f "kazmight.js" ]; then
-    echo "Error: kazmight.js not found in the current directory."
+
+cd /workspace/Pharos-S2-Bot
+
+
+if [ ! -d "node_modules" ]; then
+  echo "Direktori node_modules tidak ditemukan. Melakukan npm install..."
+  npm install
+  if [ $? -ne 0 ]; then
+    echo "npm install gagal. Harap periksa koneksi internet atau masalah dependensi."
     exit 1
+  fi
+  echo "npm install selesai."
+else
+  echo "Direktori node_modules sudah ada. Melewatkan npm install."
 fi
 
-if ! command -v node &> /dev/null
-then
-    echo "Error: Node.js is not installed. Please install it to run the bot."
-    exit 1
-fi
 
-echo "Starting the Pharos Bot..."
+echo "Menjalankan skrip kazmight.js..."
 node kazmight.js
-
-echo "Bot script has finished or was stopped."
