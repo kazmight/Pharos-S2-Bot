@@ -46,15 +46,7 @@ async function buildFallbackProvider(rpcUrls, chainId, name) {
 }
 
 const colors = {
-  reset: "\x1b[0m",
-  cyan: "\x1b[36m",
-  green: "\x1b[32m",
-  yellow: "\x1b[33m",
-  red: "\x1b[31m",
-  white: "\x1b[37m",
-  bold: "\x1b[1m",
-  blue: "\x1b[34m",
-  magenta: "\x1b[35m"
+  reset: "\x1b[0m", cyan: "\x1b[36m", green: "\x1b[32m", yellow: "\x1b[33m", red: "\x1b[31m", white: "\x1b[37m", bold: "\x1b[1m", blue: "\x1b[34m", magenta: "\x1b[35m"
 };
 
 const logger = {
@@ -67,9 +59,15 @@ const logger = {
   countdown: (msg) => process.stdout.write(`\r${colors.blue}[⏰] ${msg}${colors.reset}`),
   banner: () => {
     console.log(`${colors.cyan}${colors.bold}`);
-    console.log(`---------------------------------------------`);
-    console.log(`     PharosV2 Auto Bot -     `);
-    console.log(`---------------------------------------------${colors.reset}`);
+    console.log(`██████╗ ██╗  ██╗ █████╗ ██████╗  █████╗  ██████╗   ██████╗██████╗ `);
+    console.log(`██╔══██╗██║  ██║██╔══██╗██╔══██╗██╔══██╗██╔════╝  ██╔════╝╚════██╗`);
+    console.log(`██████╔╝███████║███████║██████╔╝██║  ██║╚█████╗   ╚█████╗   ███╔═╝`);
+    console.log(`██╔═══╝ ██╔══██║██╔══██║██╔══██╗██║  ██║ ╚═══██╗   ╚═══██╗██╔══╝  `);
+    console.log(`██║     ██║  ██║██║  ██║██║  ██║╚█████╔╝██████╔╝  ██████╔╝███████╗`);
+    console.log(`╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═════╝   ╚═════╝ ╚══════╝
+    console.log(`                    Script Author By : Kazmight                   `);
+    console.log(`For Future New Script or Update Join Telegram Channel : Dasar Pemulung`);
+    console.log(`--------------------------------------------------------------------${colors.reset}`);
     console.log();
   }
 };
