@@ -88,7 +88,7 @@ const logger = {
     console.log(`      ██║     ██║  ██║██║  ██║██║  ██║╚█████╔╝██████╔╝  ██████╔╝███████╗`);
     console.log(`      ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═════╝   ╚═════╝ ╚══════╝`);
     console.log(`💧 AquaFlux Protocol 🦄 DODO DEX 💰 Flow Add Liquidity 💸 Primus Social Tipping`);
-    console.log(`     For Future New Script or Update Join Telegram Channel : Dasar Pemulung`);
+    console.log(`     For Future New Script or Update Join Telegram Channel : Invictuslabs - Airdrops`);
     console.log(`                 ----     Script Author By : Kazmight    ----               ${colors.reset}`);
   }
 };
